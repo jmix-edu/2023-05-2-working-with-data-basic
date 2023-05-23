@@ -1,0 +1,5 @@
+<fetchPlans xmlns="http://jmix.io/schema/core/fetch-plans">
+    <fetchPlan name="project-with-tasks"  entity="Project" extends="_base">
+        <property name="tasks"/>
+    </fetchPlan>
+</fetchPlans>
